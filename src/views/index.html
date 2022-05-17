@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><%= title %></title>
+    <%- include('partials/head.html')%>
+    <!-- <style>
+        body{
+            font-family: 'Spicy Rice', cursive;
+        }
+    </style> -->
+
+</head>
+<body>
+    <%- include('partials/navigation.html') %>
+    <div class="container">
+        <header class="row">
+            <div class="col-lg-12 text-center">
+                <img src="/img/pews-logo.png" class="w-auto animated bounceIn" alt="">
+            </div>
+        </header>
+    </div>
+
+    <!--Section one-->
+    <div class="container-fluid" id="about">
+        <div class="row bg-dark text-white p-5 text-center">
+            <div class="col-sm-6">
+                <i class="fab fa-youtube fa-10x"></i>
+            </div>
+            <div class="col-sm-6">
+                <h3>Suscribe Youtuber</h3>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni officiis libero facere quisquam vero iusto vel eveniet culpa, aut similique neque veritatis illo error enim porro nesciunt, deleniti reprehenderit autem?
+            </div>
+        </div>
+    </div>
+
+    <%- include('partials/footer.html') %>
+</body>
+</html>
